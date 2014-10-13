@@ -42,7 +42,7 @@ a.btn_red {color: #8FC9C7;}
 
 /* Social Login Form */
 .social_login {}
-.social_login .social_box {display:block; clear:both; padding:10px; margin-bottom: 10px; background: white; overflow: hidden; border:1px solid black;}
+.social_login .social_box {display:block; clear:both; padding:10px; margin-bottom: 10px; background: #232323; overflow: hidden; border:1px solid black;}
 .social_login .icon {display:block; width:10px; padding:5px 10px; margin-right: 10px; float:left; color:#FFF; font-size:16px; text-align: center;} 
 .social_login .fb .icon {background:#3B5998;}
 .social_login .google .icon {background:#DD4B39;}
