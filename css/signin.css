@@ -1,0 +1,84 @@
+#contentleft {
+	float:left;
+	width: 50%;
+	padding: 0px 20px;
+	margin-top: 50px;
+}
+#contentright {
+	position: relative;
+	float:right;
+	width: 40%;
+	height: 550px;
+	padding: 0px 20px;
+	margin-top: 50px;
+	border-left: 1px black solid;
+}
+
+#contenttext{
+	text-align: center;
+	margin: 10px 0px;
+	padding: 50px 10px;
+}
+
+#contenttitle{
+	font-size: 30px;
+	padding: 10px 0px;
+}
+
+#signin{
+	width:30%;
+	margin:40px auto 20px auto;
+}
+#signin-form{
+	font-size:12px;
+}
+#submit{
+	font-size:20px;
+	padding: 5px 20px;
+	margin: 10px auto 10px auto;
+	width: 100%;
+}
+#signin li{
+	padding:10px;
+}
+.inputbox{
+	margin:10px auto 10px auto;
+	height:25px;
+	width:250px;
+}
+#signin a.forgot{
+	position:relative;
+	right: -160px;
+	margin-top:-8px;
+	text-align: right;
+	font-size: 12px;
+}
+.formlabel{
+	font-size: 18px;
+}
+.rememberme{
+	margin-top: -10px;
+	margin-bottom: 30px;
+}
+#orlabel{
+	font-size: 18px;
+	text-align: center;
+}
+#register{
+	display: block;
+	font-size:20px;
+	text-align: center;
+	padding: 10px 20px;
+	width: 50%;
+	margin: 50px auto 10px auto;
+}
+
+#registerform li{
+	padding: 20px;
+}
+#registerform button{
+	font-size:20px;
+	padding: 5px 20px;
+	margin: 10px auto 10px auto;
+	width: 300px;
+}

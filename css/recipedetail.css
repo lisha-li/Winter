@@ -1,0 +1,104 @@
+#contentpic{
+	float:right;
+	display: block;
+	height: 400px;
+	width: 400px;
+	padding: 80px 250px 50px 50px;
+}
+
+#foodpic{
+	height: 400px;
+	width: 400px;
+}
+
+#recipetitle{
+	width: 50%;
+	margin: 30px auto 0 auto;
+	text-align: center;
+}
+
+#contenttext{
+	width: 50%;
+	margin: 0 auto;
+}
+
+#ingredients{
+	text-align:left;
+	padding: 100px;
+	padding-top: 130px;
+	font-size: 14px;
+}
+
+#ingredients li {
+	padding: 2px 0px;
+}
+#title{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#method{
+	text-align: left;
+	list-style-type: decimal;
+	padding: 100px;
+	padding-top: 30px;
+	border-bottom: 1px solid black;
+}
+
+#method li {
+	padding: 10px;
+}
+
+#ratings{
+	font-size: 26px;
+	color: orange;
+	padding-bottom: 15px;
+}
+
+#editbutton{
+	position: absolute;
+	right: 100px;
+	width: 80px;
+	height: 20px;
+	margin-top: 20px;
+}
+
+#comments{
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+#comments li{
+	padding: 30px;
+	border-bottom: 2px grey solid;
+}
+
+#commentratings{
+	display:inline-block;
+	color:orange;
+	float:right;
+	padding: 20px 0px 5px 0px;
+}
+
+#commentname {
+	display:inline-block;
+	color:#8FC9C7;
+	float:right;
+	padding: 20px 5px 5px 5px;
+}
+
+#commentnames {
+	color:#8FC9C7;
+	padding: 20px 5px;
+	border-bottom: 1px solid black;
+}
+
+#commentdetail{
+	clear:both;
+	color:grey;
+	font-size: 12px;
+	text-align: right;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted grey;
+}

@@ -1,0 +1,274 @@
+/* CSS Document */
+*{
+	font-family: "Lucida Sans", Courier, monospace;
+}
+
+ul li{
+	font-family: "Lucida Sans", Courier, monospace;
+}
+
+ol li{
+	font-family: "Lucida Sans", Courier, monospace;
+}
+
+h1,h2,h3,h4,h5,h6,p,form ,a{
+	font-family: "Lucida Sans", Courier, monospace;
+}
+
+button{
+	background: #232323;
+	color: #8FC9C7;
+	border: none;
+	width: 80px;
+	height: 25px;
+}
+button:hover{
+	color:white;
+}
+
+/* Links */
+a:visited{
+color: #232323;
+}
+
+a:link{
+text-decoration:none;
+color: #232323;
+}
+
+a:hover{
+color: #8FC9C7;
+}
+
+/* Header */
+header{
+	height:100px;
+}
+
+#logo{
+	display: block;
+	position: absolute;
+	left: 5px;
+	width: 200px;
+	height: 134px;
+}
+#slogan{
+	position: absolute;
+	left: 55px;
+	top: 100px;
+	text-align:center;
+	font-size: 20px;
+}
+#login{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+
+/* Navigation */
+nav{
+	height:40px;
+	position:relative;
+	top:10px;
+}
+#nav_right{
+	position:relative;
+	top:10px;
+	right:30px;
+	float: right;
+}
+#nav_right li{
+	display:inline;
+	padding:10px 0px;
+	margin: 0px 5px;
+	font-size:18px;
+	border: solid 1px black;
+	background:white;
+}
+
+#nav_bottom{
+	position:relative;
+	top:40px;
+	left:50px;
+}
+#nav_bottom li{
+	display:inline;
+	padding:10px 10px;
+	margin: 0px 5px;
+	font-size:18px;
+}
+
+#sociallink{
+	position:relative;
+	top:20px;
+	float:right;
+	right:50px;
+}
+#sociallink li{
+	display:inline;
+	padding:10px 10px;
+	margin: 0px 5px;
+}
+
+/* Nav Links */
+
+#nav_right li a:link{
+	text-decoration:none; 
+	color: #8FC9C7;
+	padding:10px 30px;
+}
+
+#nav_right li a:hover{
+	padding:10px 30px;
+	background: #232323;
+}
+
+#nav_right li a:visited{
+	color: #8FC9C7;
+	padding:10px 30px;
+}
+
+#nav_right li a.current{
+	padding:10px 30px;
+	background: #232323;
+}
+
+#nav_bottom li a:link{
+	color: #8FC9C7;
+}
+
+#nav_bottom li a:visited{
+	color: #8FC9C7;
+}
+
+#nav_bottom li a:hover{
+	color: white;
+}
+
+#nav_bottom li a.current{
+	color: white;
+}
+
+
+/* Body */
+
+body{
+	background:#FFFFFF;
+	margin:0;
+	padding:0;
+	height:100%;
+	overflow-x: hidden;
+}
+
+#content{
+	width:100%;
+	margin:30px auto 30px auto;
+	text-align:left;
+	border-top: solid 2px black;
+	padding-bottom:100px;
+}
+
+#contentpic{
+	text-align: center;
+	padding: 30px;
+	padding-bottom: 0;
+}
+#contentpic li{
+	display: inline;
+	padding: 0 50px;
+}
+.spaghetti {
+	width: 350px;
+	height: 350px;
+}
+.features{
+	width: 100%;
+	height: 500px;
+
+}
+#contenttext{
+	text-align: center;
+	margin: 10px 0px;
+	padding: 10px 10px;
+}
+
+#contenttitle{
+	font-size: 30px;
+	padding: 10px 0px;
+}
+
+#bigcontent{
+	text-align: center;
+	margin: 10px 0px;
+	padding: 30px 10px;
+}
+
+#bigcontenttext{
+	text-align: center;
+	margin: 10px 0px;
+	padding: 30px 10px;
+}
+
+#form {
+	width: 550px;
+	margin: 0px auto;
+	padding: 50px 0px;
+}
+
+#searchbg{
+	width: 100%;
+	background: #232323;
+}
+
+#searchbar{
+	width: 500px;
+	margin: 0px auto;
+	padding: 30px 0px;
+}
+
+#search{
+	width: 500px;
+	height: 25px;
+}
+
+
+/* Footer */
+
+footer{
+	position:fixed;
+	bottom: 0px;
+	height: 100px;
+	background-color: #232323;
+	width:100%;
+	left:0;
+}
+.flexslider{
+	width: 100%;
+	height:480px;
+}
+.image {
+	height: 480px;
+}
+#helpdesk-form{
+	width: 650px;
+}
+#helpdesk-form li{
+	padding: 5px 0px;
+}
+#helpdesk-form button{
+	width: 150px;
+}
+.centerbutton{
+	text-align: center;
+}
+.socialicons{
+	width: 20px;
+	height: 20px;
+}
+.socialicons a{
+	color: #8FC9C7;
+	padding: 5px;
+}
+.socialicons a:hover{
+	color: white;
+}
