@@ -106,9 +106,9 @@
 
 		<nav>
 			<ul id ="nav_right">
-				<li><a href="../index.html"> HOME </a></li>
-				<li><a href="features.html"> FEATURES </a></li>
-				<li><a class="current" href="recipes.html"> RECIPES </a></li>
+				<li><a href="../index.html"><i class="fa fa-home"></i> HOME </a></li>
+				<li><a href="features.html"><i class="fa fa-star"></i> FEATURES </a></li>
+				<li><a class="current" href="recipes.html"><i class="fa fa-cutlery"></i> RECIPES </a></li>
 			</ul>
 		</nav>
 		
@@ -117,68 +117,91 @@
 			<section id="searchbg">
 				<form action="search.html" id ="searchbar">
 					<input type="text" placeholder="Search" id="search"/>
+					<a href="search.html"><i id="glassbutton" class="fa fa-search"></i></a>
 				</form>
 			</section>
 			
 			<section id="wrapper">
-			
-				<h1 id="title"> BEEF</h2>
+				<section id="searchwrapper">
 				
-				<form id="submit" action="">
-					<button type="submit" class="modal_trigger" id="submitbutton"  href="#modal">Submit Recipe</button>
-				</form>
+					<h1 id="title"> BEEF</h2>
+					
+					<form id="submit" action="">
+						<button type="submit" class="modal_trigger" id="submitbutton"  href="#modal">Submit Recipe</button>
+					</form>
+					
+					<form id="filter" action="">
+						<label>Sort by: </label>
+							<select>
+								<option>Most Popular</option>
+								<option>Least Popular</option>
+								<option>Highest Rating</option>
+								<option>Lowest Rating</option>
+							</select>
+					</form>
 				
-				<form id="filter" action="">
-					<label>Sort by: </label>
-						<select>
-							<option>Most Popular</option>
-							<option>Least Popular</option>
-							<option>Highest Rating</option>
-							<option>Lowest Rating</option>
-						</select>
-				</form>
+					<section id="recipesection">
+					<ul>
+						<li><a href="">Appetizers</a></li>
+						<li><a href="">Side dishes</a></li>
+						<li><a href="">Soup</a></li>
+						<li><a class="current" href="">Beef</a></li>
+						<li><a href="">Pork</a></li>
+						<li><a href="">Chicken</a></li>
+						<li><a href="">Seafood</a></li>
+						<li><a href="">Vegetarian</a></li>
+						<li><a href="">Seafood</a></li>
+						<li><a href="">Desert</a></li>
+					</ul>
+					</section>
+					
+					<ul id ="recipesearch">
+						<li class="inline">
+							<article class="searchresult">
+							<a href="recipedetail.html"><img src="../image/spaghetti.jpg" alt="Food" class="recipepic"/></a>
+							<p><a href="recipedetail.html">Spaghetti</a></p>
+							</article>
+						</li>
+						
+						<li class="inline">
+							<article class="searchresult">
+							<a href="recipedetail.html"><img src="../image/food2.jpg" alt="Food" class="recipepic"/></a>
+							<p><a href="recipedetail.html">Beef Lasagne</a></p>
+							</article>
+						</li>
+						
+						<li class="inline">
+							<article class="searchresult">
+							<a href="recipedetail.html"><img src="../image/food3.jpg" alt="Food" class="recipepic"/></a>
+							<p><a href="recipedetail.html">Barbecued Meatball</a></p>
+							</article>
+						</li>
+						
+						<li class="inline">
+							<article class="searchresult">
+							<a href="recipedetail.html"><img src="../image/food4.jpg" alt="Food" class="recipepic"/></a>
+							<p><a href="recipedetail.html">Beef Soba Noodle</a></p>
+							</article>
+						</li>
+						
+						<li class="inline">
+							<article class="searchresult">
+							<a href="recipedetail.html"><img src="../image/food5.jpg" alt="Food" class="recipepic"/></a>
+							<p><a href="recipedetail.html">Steak Sandwiches</a></p>
+							</article>
+						</li>
+						
+						<li class="inline">
+							<article class="searchresult">
+							<a href="recipedetail.html"><img src="../image/food6.jpg" alt="Food" class="recipepic"/></a>
+							<p><a href="recipedetail.html">Cheeseburger</a></p>
+							</article>
+						</li>
+					</ul>
+					
+					<p id="numnav"><a href="#">First [<i class="fa fa-angle-double-left"></i>]</a><a href="#"> [<i class="fa fa-angle-left"></i>]</a> <a class="currentpage" href="#">[1]</a> <a href="#">[2]</a> ... <a href="#">[10]</a> <a href="#">[<i class="fa fa-angle-right"></i>]</a> <a href="#">[<i class="fa fa-angle-double-right"></i>] Last</a></p>
 			
-				<section id="recipesection">
-				<ul>
-					<li><a href="">Appetizers</a></li>
-					<li><a href="">Side dishes</a></li>
-					<li><a href="">Soup</a></li>
-					<li><a href="">Beef</a></li>
-					<li><a href="">Pork</a></li>
-					<li><a href="">Chicken</a></li>
-					<li><a href="">Seafood</a></li>
-					<li><a href="">Vegetarian</a></li>
-					<li><a href="">Seafood</a></li>
-					<li><a href="">Desert</a></li>
-				</ul>
 				</section>
-				
-				<ul id ="recipesearch">
-					<li class="inline"><a href="recipedetail.html"><img src="../image/spaghetti.jpg" alt="Food" class="recipepic"/></a></li>
-					<li class="inline"><a href="recipedetail.html"><img src="../image/spaghetti.jpg" alt="Food" class="recipepic"/></a></li>
-					<li class="inline"><a href="recipedetail.html"><img src="../image/spaghetti.jpg" alt="Food" class="recipepic"/></a></li>
-					<li class="inline"><a href="recipedetail.html"><img src="../image/spaghetti.jpg" alt="Food" class="recipepic"/></a></li>
-					</br>
-					<li class="inlineword"><a href="recipedetail.html">Spaghetti</a></li>
-					<li class="inlineword"><a href="recipedetail.html">Spaghetti</a></li>
-					<li class="inlineword"><a href="recipedetail.html">Spaghetti</a></li>
-					<li class="inlineword"><a href="recipedetail.html">Spaghetti</a></li>
-					</br>
-					</br>
-					</br>
-					<li class="inline"><a href="recipedetail.html"><img src="../image/spaghetti.jpg" alt="Food" class="recipepic"/></a></li>
-					<li class="inline"><a href="recipedetail.html"><img src="../image/spaghetti.jpg" alt="Food" class="recipepic"/></a></li>
-					<li class="inline"><a href="recipedetail.html"><img src="../image/spaghetti.jpg" alt="Food" class="recipepic"/></a></li>
-					<li class="inline"><a href="recipedetail.html"><img src="../image/spaghetti.jpg" alt="Food" class="recipepic"/></a></li>
-					</br>
-					<li class="inlineword"><a href="recipedetail.html">Spaghetti</a></li>
-					<li class="inlineword"><a href="recipedetail.html">Spaghetti</a></li>
-					<li class="inlineword"><a href="recipedetail.html">Spaghetti</a></li>
-					<li class="inlineword"><a href="recipedetail.html">Spaghetti</a></li>
-				</ul>
-				
-				<p id="numnav"><a href="#">Previous [&lt;]</a> <a href="#">[1]</a> <a href="#">[2]</a> ... <a href="#">[10]</a> <a href="#">[>] Next</a>
-		
 			</section>
 		</section>
 
@@ -193,7 +216,7 @@
 			<ul id ="sociallink">
 				<li class="socialicons"><a href=""><i class="fa fa-facebook-square fa-2x"></i></a></li>
 				<li class="socialicons"><a href=""><i class="fa fa-google-plus-square fa-2x"></i></a></li>
-				<li class="socialicons"><a href=""><i class="fa fa-tumblr-square fa-2x"></i></a></li>
+				<li class="socialicons"><a href=""><i class="fa fa-instagram fa-2x"></i></a></li>
 				<li class="socialicons"><a href=""><i class="fa fa-twitter-square fa-2x"></i></a></li>
 			</ul>
 		</footer>

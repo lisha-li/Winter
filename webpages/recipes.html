@@ -106,9 +106,9 @@
 
 		<nav>
 			<ul id ="nav_right">
-				<li><a href="../index.html"> HOME </a></li>
-				<li><a href="features.html"> FEATURES </a></li>
-				<li><a class="current" href="recipes.html"> RECIPES </a></li>
+				<li><a href="../index.html"><i class="fa fa-home"></i> HOME </a></li>
+				<li><a href="features.html"><i class="fa fa-star"></i> FEATURES </a></li>
+				<li><a class="current" href="recipes.html"><i class="fa fa-cutlery"></i> RECIPES </a></li>
 			</ul>
 		</nav>
 		
@@ -117,22 +117,26 @@
 			<section id="searchbg">
 				<form action="search.html" id ="searchbar">
 					<input type="text" placeholder="Search" id="search"/>
+					<a href="search.html"><i id="glassbutton" class="fa fa-search"></i></a>
 				</form>
 			</section>
 			
-			<section id="contentpic">
-				<ul>
-					<h1 id="contenttitle">Today's recommendation:</h1>
-					<li><a href="recipedetail.html"><img class="spaghetti" src="../image/spaghetti.jpg" alt="Food" id ="food"></a></li>
-					<li id="sectitle"><a href="recipedetail.html">Spaghetti</a></li>
-					<p id="ratings">&#9733;&#9733;&#9733;&#9733;&#x2606;</p>
-				</ul>
+			<section id="wrapper">
+				<section id="contentpic">
+					<ul>
+						<h1 id="contenttitle">Today's recommendation:</h1>
+						</br>
+						</br>
+						<li><a href="recipedetail.html"><img class="spaghetti" src="../image/spaghetti.jpg" alt="Food" id ="food"></a></li>
+						<p id="sectitle"><a href="recipedetail.html">Spaghetti</a></li>
+						<p id="ratings">&#9733;&#9733;&#9733;&#9733;&#x2606;</p>
+					</ul>
+				</section>
+				
+				<form id="contenttext" action="search.html">
+					<button type="submit" class="searchbutton"> SEARCH FOR MORE </button>
+				</form>
 			</section>
-			
-			<form id="contenttext" action="search.html">
-				<button type="submit" class="searchbutton" >SEARCH FOR MORE</button>
-			</form>
-	
 		</section>
 
 		
@@ -146,7 +150,7 @@
 			<ul id ="sociallink">
 				<li class="socialicons"><a href=""><i class="fa fa-facebook-square fa-2x"></i></a></li>
 				<li class="socialicons"><a href=""><i class="fa fa-google-plus-square fa-2x"></i></a></li>
-				<li class="socialicons"><a href=""><i class="fa fa-tumblr-square fa-2x"></i></a></li>
+				<li class="socialicons"><a href=""><i class="fa fa-instagram fa-2x"></i></a></li>
 				<li class="socialicons"><a href=""><i class="fa fa-twitter-square fa-2x"></i></a></li>
 			</ul>
 		</footer>
