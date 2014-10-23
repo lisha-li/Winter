@@ -1,3 +1,13 @@
+/* Button */
+#editbutton{
+	position: relative;
+	width: 80px;
+	height: 20px;
+	top: 220px;
+	left: 70%;
+}
+
+/* Content */
 #contentpic{
 	float:right;
 	height: 400px;
@@ -48,13 +58,6 @@
 	padding: 10px;
 }
 
-#editbutton{
-	position: relative;
-	width: 80px;
-	height: 20px;
-	top: 220px;
-	left: 70%;
-}
 
 #comments{
 	width: 50%;

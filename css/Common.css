@@ -15,6 +15,7 @@ h1,h2,h3,h4,h5,h6,p,form,label,a, span{
 	font-family: "Lucida Sans", Courier, monospace;
 }
 
+/* Buttons */
 button{
 	background: #232323;
 	color: #8FC9C7;
@@ -24,6 +25,19 @@ button{
 }
 button:hover{
 	color:white;
+}
+
+#glassbutton {
+	display: inline;
+	position: relative;
+	top: -25px;
+	left: 470px;
+	border-left: 1px grey solid;
+	padding: 6.5px 8px;
+}
+
+.centerbutton{
+	text-align: center;
 }
 
 /* Links */
@@ -69,6 +83,23 @@ header{
 	top: 20px;
 }
 
+/* Search bar */
+#searchbg{
+	width: 100%;
+	background: #232323;
+}
+
+#searchbar{
+	width: 500px;
+	margin: 0px auto;
+	padding: 30px 0 15px 0;
+}
+
+#search{
+	width: 500px;
+	height: 25px;
+}
+
 /* Navigation */
 nav{
 	height:40px;
@@ -86,10 +117,9 @@ nav{
 	padding:10px 0px;
 	margin: 0px 5px;
 	font-size:18px;
-	border: solid 1px black;
+	border: solid 2px black;
 	background:white;
 }
-
 #nav_bottom{
 	position:relative;
 	top:40px;
@@ -101,7 +131,6 @@ nav{
 	margin: 0px 5px;
 	font-size:18px;
 }
-
 #sociallink{
 	position:relative;
 	top:20px;
@@ -114,51 +143,34 @@ nav{
 	margin: 0px 5px;
 }
 
-#glassbutton {
-	display: inline;
-	position: relative;
-	top: -25px;
-	left: 470px;
-	border-left: 1px grey solid;
-	padding: 6.5px 8px;
-}
-
 
 /* Nav Links */
-
 #nav_right li a:link{
 	text-decoration:none; 
 	color: #8FC9C7;
 	padding:10px 30px;
 }
-
 #nav_right li a:hover{
 	padding:10px 30px;
 	background: #232323;
 }
-
 #nav_right li a:visited{
 	color: #8FC9C7;
 	padding:10px 30px;
 }
-
 #nav_right li a.current{
 	padding:10px 30px;
 	background: #232323;
 }
-
 #nav_bottom li a:link{
 	color: #8FC9C7;
 }
-
 #nav_bottom li a:visited{
 	color: #8FC9C7;
 }
-
 #nav_bottom li a:hover{
 	color: white;
 }
-
 #nav_bottom li a.current{
 	color: white;
 }
@@ -174,12 +186,43 @@ body{
 	overflow-x: hidden;
 }
 
+#wrapper{
+	position: absolute;
+	width: 100%;
+	top: 20%;
+	margin-top:80px;
+	padding-bottom: 100px; 
+}
+
+#wrapper2{
+	position: absolute;
+	width: 100%;
+	top: 15%;
+	margin-top:80px;
+	padding-bottom: 100px; 
+}
+
 #content{
 	width:100%;
 	margin:30px auto 30px auto;
 	text-align:left;
 	border-top: solid 2px black;
 	padding-bottom:100px;
+}
+
+.flexslider{
+	width: 1300px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.image {
+	height: 500px;
+}
+
+#slider{
+	background: #232323;
+	padding: 2px;
 }
 
 #contentpic{
@@ -190,37 +233,65 @@ body{
 	width: 400px;
 	height: 400px;
 }
+.spaghetti:hover{
+	width: 420px;
+	height: 420px;
+}
+
 .features{
 	display:inline;
 	width: 330px;
 	height: 435px;
 	padding-bottom: 60px;
 }
+
+.features:hover{
+	-webkit-transform: scale(1.1,1.1);
+    -moz-transform:scale(1.1,1.1);
+}
+
 .featuresleft{
 	float: left;
-	width: 230px;
-	height: 240px;
+	width: 320px;
+	height: 480px;
 }
+
 .featuresright{
 	float: right;
-	width: 230px;
-	height: 240px;
+	width: 320px;
+	height: 480px;
 }
+
 .featuredetail{
 	clear:both;
 	margin: 100px auto;
-	padding: 100px 0;
+	padding: 100px 0 200px 0;
 	width: 60%;
 }
-.featuretext{
-	padding: 50px;
+
+.featuretextleft{
+	position: relative;
+	left: 10%;
+	text-align: center;
+	padding: 100px;
 	margin: 0 auto;
 	width: 40%;
 }
+
+.featuretextright{
+	position: relative;
+	right: 10%;
+	text-align: center;
+	padding: 100px;
+	margin: 0 auto;
+	width: 40%;
+}
+
 .text{
 	margin: 0 auto;
 	width: 40%;
 }
+
 #contenttext{
 	text-align: center;
 	margin: 20px 0px;
@@ -251,20 +322,16 @@ body{
 	padding: 50px 0px;
 }
 
-#searchbg{
-	width: 100%;
-	background: #232323;
+#helpdesk-form{
+	width: 650px;
 }
 
-#searchbar{
-	width: 500px;
-	margin: 0px auto;
-	padding: 30px 0 15px 0;
+#helpdesk-form li{
+	padding: 5px 0px;
 }
 
-#search{
-	width: 500px;
-	height: 25px;
+#helpdesk-form button{
+	width: 150px;
 }
 
 #ratings{
@@ -272,23 +339,26 @@ body{
 	color: orange;
 	padding-bottom: 15px;
 }
+
 #hodor{
 	width: 80%;
 	height: 80%;
 }
+
 .question {
 	text-align: left;
 	font-size: 16px;
 	font-weight: bold;
 	color:#8FC9C7;
 }
+
 .answer{
 	text-align: left;
 	font-size: 14px;
 }
 
-/* Footer */
 
+/* Footer */
 footer{
 	position:fixed;
 	bottom: 0px;
@@ -297,49 +367,17 @@ footer{
 	width:100%;
 	left:0;
 }
-.flexslider{
-	width: 100%;
-	height: 500px;
-}
-.image {
-	height: 500px;
-}
-#helpdesk-form{
-	width: 650px;
-}
-#helpdesk-form li{
-	padding: 5px 0px;
-}
-#helpdesk-form button{
-	width: 150px;
-}
-.centerbutton{
-	text-align: center;
-}
+
 .socialicons{
 	width: 20px;
 	height: 20px;
 }
+
 .socialicons a{
 	color: #8FC9C7;
 	padding: 5px;
 }
+
 .socialicons a:hover{
 	color: white;
-}
-
-#wrapper{
-	position: absolute;
-	width: 100%;
-	top: 20%;
-	margin-top:80px;
-	padding-bottom: 100px; 
-}
-
-#wrapper2{
-	position: absolute;
-	width: 100%;
-	top: 15%;
-	margin-top:80px;
-	padding-bottom: 100px; 
 }
