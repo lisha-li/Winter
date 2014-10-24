@@ -114,10 +114,10 @@
 		<section id="content">
 			<section id="wrapper">
 				<section id="contentpic">
-					<a href="#feature1"><img class="features" src="../image/features1.png" alt="Features"></a>
-					<a href="#feature2"><img class="features" src="../image/features2.png" alt="Features"></a>
-					<a href="#feature3"><img class="features" src="../image/features3.png" alt="Features"></a>
-					<a href="#feature4"><img class="features" src="../image/features4.png" alt="Features"></a>
+					<a class="scroll" href="#feature1"><img class="features" src="../image/features1.png" alt="Features"></a>
+					<a class="scroll" href="#feature2"><img class="features" src="../image/features2.png" alt="Features"></a>
+					<a class="scroll" href="#feature3"><img class="features" src="../image/features3.png" alt="Features"></a>
+					<a class="scroll" href="#feature4"><img class="features" src="../image/features4.png" alt="Features"></a>
 				</section>
 				
 				<section id="contenttext">
@@ -146,7 +146,7 @@
 				</article>
 				
 				<section id="contenttext">
-					<a href="#top">Return to top</a>
+					<a class="scroll" href="#top">Return to top</a>
 				</section>
 			</section>
 		</section>
@@ -196,6 +196,16 @@
 				});
 
 			})
+			
+			var $root = $('html, body');
+			$('.scroll').click(function () {
+
+				$root.animate({
+					scrollTop: $($.attr(this, 'href')).offset().top
+				}, 500);
+
+				return false;
+			});
 		</script>
 		
 	</body>
