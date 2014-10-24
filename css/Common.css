@@ -222,7 +222,6 @@ body{
 
 #slider{
 	background: #232323;
-	padding: 2px;
 }
 
 #contentpic{
@@ -253,19 +252,21 @@ body{
 .featuresleft{
 	float: left;
 	width: 320px;
-	height: 480px;
+	height: 568px;
+	padding: 20px;
 }
 
 .featuresright{
 	float: right;
 	width: 320px;
-	height: 480px;
+	height: 568px;
+	padding: 20px;
 }
 
 .featuredetail{
 	clear:both;
 	margin: 100px auto;
-	padding: 100px 0 200px 0;
+	padding: 150px 0 200px 0;
 	width: 60%;
 }
 
