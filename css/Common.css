@@ -1,18 +1,18 @@
 /* CSS Document */
 *{
-	font-family: "Lucida Sans", Courier, monospace;
+	font-family: "Lucida Sans Unicode", Courier, monospace;
 }
 
 ul li{
-	font-family: "Lucida Sans", Courier, monospace;
+	font-family: "Lucida Sans Unicode", Courier, monospace;
 }
 
 ol li{
-	font-family: "Lucida Sans", Courier, monospace;
+	font-family: "Lucida Sans Unicode", Courier, monospace;
 }
 
 h1,h2,h3,h4,h5,h6,p,form,label,a, span{
-	font-family: "Lucida Sans", Courier, monospace;
+	font-family: "Lucida San Unicodes", Courier, monospace;
 }
 
 /* Buttons */
